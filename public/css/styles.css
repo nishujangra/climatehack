@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("/images/back.jpg") no-repeat center center/cover;
+    color: #fff;
+}
+
+
+.nav-link{
+    color: #A6D0DD;
+}
+
+.nav-link:hover{
+    opacity: 0.8;
+}
+
+.container{
+    width: 100vw;
+}
+
+.climate{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.climate span{
+    font-size: 5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.grid{
+    background-color: rgb(33, 37, 41);
+    display: grid;
+    gap: 2rem;
+    padding: 1rem;
+}
