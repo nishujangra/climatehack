@@ -23,6 +23,9 @@ app.get('/', (req, res) => {
     res.render('index')
 })
 
+app.get('/calc', (req, res) => {
+    res.render('calc.ejs')
+})
 
 
 app.listen(port, () => {

@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-body{
+.body-first{
     background: url("/images/back.jpg") no-repeat center center/cover;
+    width: 100vw;
     color: #fff;
 }
 
