@@ -42,3 +42,48 @@ body{
     gap: 2rem;
     padding: 1rem;
 }
+
+.p-top{
+    padding-top: 1.3rem;
+}
+
+.col-4{
+    font-size: large;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #A6D0DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-8{
+    font-size: medium;
+}
+
+.col-8:nth-child(odd){
+    padding-left: 3rem;
+}
+
+.point{
+    list-style: disc;
+    background-color: rgb(33, 37, 41);
+    padding: .3rem;
+    color: #fff;
+    border: none;
+}
+
+.footer{
+    background-color: rgb(33, 37, 41);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.msg{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #A6D0DD;
+}
